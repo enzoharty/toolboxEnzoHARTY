@@ -8,6 +8,8 @@ Toolbox
 
 ## Getting started
 
+L'application fonctionne sur une kali linux ( 2023.2 ) et version supérieure
+
 Pour importer le git il vous suffira de faire 
 
     git clone https://github.com/enzoharty/toolboxEnzoHARTY.git
