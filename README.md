@@ -33,7 +33,6 @@ Maintenant vous pouvez l'application :
 
 
 
-
 ## Name
 
 Toolbox 
@@ -91,7 +90,7 @@ Vous pourrez choisir d'utiliser une liste d'utilisateur et de mot de passe ou de
 1 script bash pour installer les prérequis.
 Le reste script python.
 
-Module utilsés : Paramiko, nmap, shodan, reportlab, json
+Module utilsés : Paramiko, nmap, shodan, reportlab, json, argparse, datetime
 ## Roadmap
 
 Amélioration en cours : 
