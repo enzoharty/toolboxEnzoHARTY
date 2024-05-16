@@ -1,6 +1,10 @@
-# projet-professionnel-toolbox
+# Projet-professionnel-toolbox
 
 Enzo HARTY DE PIERREBOURG Master-4-CS-b
+
+## Name
+
+Toolbox 
 
 ## Getting started
 
@@ -11,6 +15,7 @@ Pour importer le git il vous suffira de faire
 puis de mettre vos identifiant git
 
 ## Installation
+
 Tout se fera en ligne de commande.
 
 Il faudra dans un premier temps importer le git sur votre VM kali-linux.
@@ -31,11 +36,6 @@ Maintenant vous pouvez l'application :
     python main.py
 
 
-
-
-## Name
-
-Toolbox 
 
 ## Description / usage 
 
@@ -85,13 +85,14 @@ Vous pourrez choisir d'utiliser une liste d'utilisateur et de mot de passe ou de
         - Résumé pour le scan IP privé
         - Résumé pour le scan IP public
         
-## librairies
+## Librairies
 
 1 script bash pour installer les prérequis.
-Le reste script python.
+Le reste script python. ( Python 3.11.2 )
 
 Module utilsés : Paramiko, nmap, shodan, reportlab, json, argparse, datetime
-## Roadmap
+
+## A venir
 
 Amélioration en cours : 
 - Ajout d'un detecteur de wifi ( LYNIS )
