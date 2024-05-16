@@ -14,7 +14,6 @@ Pour importer le git il vous suffira de faire
 
     git clone https://github.com/enzoharty/toolboxEnzoHARTY.git
 
-puis de mettre vos identifiant git
 
 ## Installation
 
