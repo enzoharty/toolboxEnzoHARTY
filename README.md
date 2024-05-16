@@ -6,7 +6,7 @@ Enzo HARTY DE PIERREBOURG Master-4-CS-b
 
 Pour importer le git il vous suffira de faire 
 
-    [git clone https://gitlab.com/enzohty/projet-professionnel-toolbox.git](https://github.com/enzoharty/toolboxEnzoHARTY.git)
+    git clone https://github.com/enzoharty/toolboxEnzoHARTY.git
 
 puis de mettre vos identifiant git
 
