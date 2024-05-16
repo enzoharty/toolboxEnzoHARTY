@@ -1,0 +1,6 @@
+test
+admin
+user
+toto
+msfadmin
+zzzz
