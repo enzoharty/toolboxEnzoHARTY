@@ -2,13 +2,19 @@
 
 Enzo HARTY DE PIERREBOURG Master-4-CS-b
 
-## Name
+## Introduction
 
-Toolbox 
+Toolbox est une application développée pour automatiser diverses tâches de scan et de test de sécurité réseau sur une machine Kali Linux. Elle permet d'effectuer des scans, de lister les ports ouverts, de faire du bruteforce SSH, et bien plus encore.
 
+## Prérequis
+
+Avant de commencer, assurez-vous d'avoir les éléments suivants installés :
+
+- Kali Linux (2023.2 ou version supérieure)
+- Github
+    
 ## Getting started
 
-L'application fonctionne sur une kali linux ( 2023.2 ) et version supérieure
 
 Pour importer le git il vous suffira de faire 
 
@@ -37,7 +43,6 @@ Maintenant vous pouvez l'application :
     python main.py
 
 
-
 ## Description / usage 
 
 Ma toolbox aura plusieurs fonctionnalités :
@@ -46,7 +51,7 @@ Ma toolbox aura plusieurs fonctionnalités :
 
 2) Une fois le scan fait vous pourrez lister les ports ouverts pour ensuite faire la suite.
 
-3) Si le port 80 ou 443 est ouvert vous pourrez utiliser la découverte de répertoire sur un serveur web ( Dirbuster )
+3) Si le port 80 ou 443 est ouvert vous pourrez utiliser la découverte de répertoire sur un serveur web ( Dirbuster ). Si vous le lancez et que le port n'est pas ouvert vous aurez juste aucun résultat dans le rapport final.
 
 4) Si le port 22 est ouvert vous pourrez faire un bruteforce en SSH sur l'ip où le port 22 est ouvert. 
 Vous pourrez choisir d'utiliser une liste d'utilisateur et de mot de passe ou de renseigner par vous même les crédentials si vous les connaisser.
@@ -92,6 +97,17 @@ Vous pourrez choisir d'utiliser une liste d'utilisateur et de mot de passe ou de
 Le reste script python. ( Python 3.11.2 )
 
 Module utilsés : Paramiko, nmap, shodan, reportlab, json, argparse, datetime
+
+## Licence
+
+Paramiko : LGPL
+Nmap :  GNU General Public License
+shodan : MIT License
+Reportlab: BSD License
+Json :  Python Software Foundation License (PSFL)
+argparse :  Python Software Foundation License (PSFL)
+Datetime : Python Software Foundation License (PSFL)
+
 
 ## A venir
 
