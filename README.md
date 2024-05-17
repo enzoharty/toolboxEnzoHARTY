@@ -25,12 +25,12 @@ Pour importer le git il vous suffira de faire
 
 Tout se fera en ligne de commande.
 
-Il faudra dans un premier temps importer le git sur votre VM kali-linux.
+Il faudra dans un premier temps importer le git sur votre VM kali-linux, une fois importer il faudra aller dans le repertoire "Projet-professionnel-toolbox"
 Dans un second temps, il faudra rendre le fichier prerequis.sh exécutable en faisant :
 
     chmod +x prerequis.sh
 
-Il se peut que le fichier soit pas pris en compte donc il faudra le convertir
+Il se peut que le fichier soit pas compris par le systeme donc il faudra le convertir
 
     dos2unix prerequis.sh
 
